@@ -4,7 +4,7 @@
 
 
 $cat = readline("Digite o nome da folgada: ");
-echo "O nome da folgada é $cat" .PHP_EOL;
+echo "O nome da folgada e comilona é $cat" .PHP_EOL;
 
 
 

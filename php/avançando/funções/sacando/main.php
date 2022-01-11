@@ -1,5 +1,18 @@
 <?php
  
+function sacar($conta ,$valor_A_Sacar){
+
+	if  ($valor_A_Sacar > $conta ['saldo']) {
+		exibeMensagem(mensagem:"Você não pode sacar");
+
+	}else {
+		$conta  ['saldo'] -= $valor_A_Sacar; 
+	}
+
+	return $conta;
+
+}
+
 function exibeMensagem ($mensagem) {
 	echo  $mensagem . PHP_EOL;
 }
@@ -30,18 +43,11 @@ $contasCorrentes['222.323.432.43'] = [
 ];*/
 
 
-if  (500 > $contasCorrentes['375.525.078-02'] ['saldo']) {
-	exibeMensagem(mensagem:"Você não pode sacar");
+$contasCorrentes['375.525.078-02'] = sacar($contasCorrentes['375.525.078-02'], valor_A_Sacar: 500);
 
-}else {
-	$contasCorrentes ['375.525.078-02'] ['saldo'] -= 500; 
-}
 
-if (500 > $contasCorrentes ['376.626.263-38'] ['saldo'] ){
-	exibeMensagem(mensagem:"Você não pode sacar");
-} else{
-	 $contasCorrentes ['376.626.263-38'] ['saldo'] -= 500 . PHP_EOL;
-}
+
+
 
 
 /*
@@ -54,4 +60,17 @@ foreach ($contasCorrentes as $cpf => $conta ){
 	exibeMensagem ($cpf . "  " . $conta['titular'] . "  " . $conta['saldo']);
 
 }
+
+$cat = "sami";
+
+
+
+
+
+
+
+
+
+
+
 

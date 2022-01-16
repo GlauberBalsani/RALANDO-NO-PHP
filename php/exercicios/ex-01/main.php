@@ -6,7 +6,7 @@ $soma = 0;
 $j = 0;
 
 
-for($i = 0; $i <=10; $i++){
+for ($i = 0; $i <=10; $i++){
     $numeros[] = readline(" : ");
     if ($numeros[$i] < 0){
         $negativos[$j] = $numeros[$i];

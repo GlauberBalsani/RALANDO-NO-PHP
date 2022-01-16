@@ -1,0 +1,41 @@
+PARADIGMAS DA PROGRAMAÇÃO
+#########################
+
+#PROGRAMAÇÃO ORIENTADA À OBJETOS#
+
+
+Abstração = Conceito de abstrair o necessário do nosso mundo real e implementar apenas o necessário no código.
+
+https://pt.wikipedia.org/wiki/Abstra%C3%A7%C3%A3o_%28ci%C3%AAncia_da_computa%C3%A7%C3%A3o%29
+
+#Classe#
+Uma classe em orientação a objetos é uma espécie de forma que abstrai um conjunto de objetos.
+EX: Forma de bolo, a forma é classe o bolo é objeto.
+A partir da forma é que são criados os objetos.
+Objetos são gerados a partir da classe, ou melhor dizendo instanciado, uma classe não necessariamente é um objeto.
+Para ser considerado uma classe, a classe tem que responder:
+
+Ex caneta.
+
+
+1 Que coisas eu tenho?
+	Modelo
+	Cor
+	Ponta
+	Carga
+	Tampada
+
+2 Que coisas eu faço?.
+	Escrever
+	Rabiscar
+	Pintar
+	Tampar
+	Destampar
+
+3 Como estou agora ?
+
+
+#Objeto#
+Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por meio das suas características,
+comportamento e estado atual.
+Objetos é uma instancia de uma classe, a classe define 

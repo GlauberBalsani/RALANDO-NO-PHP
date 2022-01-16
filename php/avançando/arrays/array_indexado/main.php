@@ -1,7 +1,7 @@
 <?php
 //Array indexado
 //neste caso de array numericos onde não definimos as chaves
-//ou indici
+//ou indices
 //
 $cat = ["sami", "linda", "folgada"];
 /*php tem algumas formas de declarar array

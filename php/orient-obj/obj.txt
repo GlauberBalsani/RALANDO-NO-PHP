@@ -17,7 +17,6 @@ Para ser considerado uma classe, a classe tem que responder:
 
 Ex caneta.
 
-
 1 Que coisas eu tenho?
 	Modelo
 	Cor
